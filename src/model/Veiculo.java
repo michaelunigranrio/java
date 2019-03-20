@@ -1,13 +1,16 @@
 package model;
 
-public abstract class Veiculo {
+public interface Veiculo {
 	
-	
-
+	//final double constante =3.0;
 	//private int numeroRoda;
 	
-	public abstract String acelerar();	
-	public abstract String frear();
+//	public  String acelerar() {	
+	//	return "ACELERANDO";
+	//}
+	
+	public String acelerar();
+	public String frear();
 	
 	
 	
